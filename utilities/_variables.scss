@@ -1,0 +1,63 @@
+$darkest: #263238;
+$dark: #37474f;
+$medium: #546e7a;
+$light: #e4ebef;
+
+$blue-light: $light;
+$blue-dark: $dark;
+$dark-blue: $darkest;
+$gray: $medium;
+
+$font-family: "Proxima Nova", "proxima-nova", Sans-Serif;
+$pre-font: Monaco, "Courier New", Courier, monospace;
+$font-weights: (light: 200, normal: 400, bold: 600);
+$font-size: 17px;
+$font-size-small: 13px;
+$line-height: 1.76471;
+$font-color: $blue-dark;
+
+$border: mix($light,white);
+$border-dark: #cfd8dc;
+
+$blue-light: $light;
+
+$blue: #0961c4;
+$brown: #c45621;
+$purple: #8a0c8f;
+$green: #4CAF50;
+$orange: #dc4904;
+$red: #c31633;
+$yellow: #efaa04;
+$cyan: #067d8a;
+$brown: brown;
+
+// Color list
+
+$colors: (
+  ("blue", $blue),
+  ("purple", $purple),
+  ("green", $green),
+  ("orange", $orange),
+  ("red", $red),
+  ("yellow", $yellow),
+  ("gray", $gray),
+  ("brown", $brown),
+  ("cyan", $cyan)
+);
+
+$br: 3px;
+
+// Padding + borders
+$padding: 20px;
+
+$body-bg: $light;
+
+// Code fonts
+$pre-font: Monaco, "Courier New", Courier, monospace;
+$code-color: #024966;
+$pre-color:  #ecf0f2;
+
+// colors:
+
+$terracotta: #c45621;
+$terracotta_light: #cd6f42;
