@@ -30,6 +30,8 @@ $red: #c31633;
 $yellow: #efaa04;
 $cyan: #067d8a;
 $brown: brown;
+$terracotta: #c45621;
+$terracotta_light: #cd6f42;
 
 // Color list
 
@@ -42,6 +44,8 @@ $colors: (
   ("yellow", $yellow),
   ("gray", $gray),
   ("brown", $brown),
+  ("terracotta", $terracotta),
+  ("terracotta_light", $terracotta_light),
   ("cyan", $cyan)
 );
 
@@ -57,7 +61,35 @@ $pre-font: Monaco, "Courier New", Courier, monospace;
 $code-color: #024966;
 $pre-color:  #ecf0f2;
 
-// colors:
+$navigation: (
+  (
+    class: "errors",
+    icon: "fa-exclamation-triangle",
+    color: $orange,
+    background: linear-gradient(125deg,$orange,darken($orange,10))
+  ),
+  (
+    class: "performance",
+    color: $green,
+    background: linear-gradient(125deg,$green,darken($green,10))
 
-$terracotta: #c45621;
-$terracotta_light: #cd6f42;
+  ),
+  (
+    class: "hosts",
+    color: $purple,
+    background: linear-gradient(125deg,$purple,darken($purple,10))
+
+  ),
+  (
+    class: "metrics",
+    icon: "fa-area-chart",
+    color: $red,
+    background: linear-gradient(125deg,$red,darken($red,10))
+  ),
+  (
+    class: "workflow",
+    icon: "fa-user",
+    color: $blue,
+    background: linear-gradient(125deg,$blue,darken($blue,10))
+  )
+);
