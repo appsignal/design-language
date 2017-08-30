@@ -1,0 +1,49 @@
+.button
+  display: inline-block
+  padding: 10px 20px
+  color: #fff !important
+  line-height: 28px
+  font-size: 16px
+  border: 1px solid transparent
+  border-radius: $br
+  background: $green
+  text-decoration: none
+  +font-weight(bold)
+  +shadow(2)
+
+  +hocus
+    background: darken($green,6)
+
+  &.small
+    padding: 5px 20px
+
+  &.outline-dark
+    background: #fff
+    +shadow(2)
+    color: $blue-dark !important
+
+    +hocus
+      background: $blue-dark
+      color: #fff !important
+
+  &.orange
+    background: $orange
+
+    +hocus
+      background: darken($orange,5)
+      color: #fff !important
+      border-color: darken($orange,5)
+
+  &.outline-white
+    background: none
+    border: 1px solid rgba(#fff, .3)
+    color: #fff !important
+    box-shadow: none
+
+    +hocus
+      border: 1px solid rgba(#fff, .6)
+
+  &.white
+    background: #fff
+    border: 1px solid transparant
+    color: $dark !important
