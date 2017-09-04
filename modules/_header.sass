@@ -30,9 +30,6 @@ $toggle-width: 900px
     display: block
     color: $darkest
 
-    &.active
-      color: $medium
-
   .subnav-small,
   .subnav-large
     display: none
@@ -52,11 +49,14 @@ $toggle-width: 900px
         display: flex
         width: 100%
 
-        > li
-          margin: 0 10px
-
+        >li
+          
           > a
-            padding: 5px
+            padding: 5px 15px
+
+    a.active
+      background: $border
+      border-radius: $br
 
     .main
       margin-left: auto
