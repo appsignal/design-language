@@ -47,6 +47,13 @@
   &:focus
     @content
 
+@mixin hactive
+  &:active,
+  &:hover,
+  &:focus,
+  &.active
+    @content
+
 @mixin scrollbar($size:"7px", $foreground-color:"none", $background-color:"none", $border-radius:"0")
   &::-webkit-scrollbar
     width: $size
