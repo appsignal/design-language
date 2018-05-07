@@ -1,0 +1,28 @@
+.mod-cookies
+  background: #fff
+  +shadow(2)
+  padding: 20px 30px
+  position: fixed
+  bottom: 0
+  left: 0
+  z-index: 300
+
+  p
+    max-width: 500px
+    margin-right: 20px
+
+  a
+    white-space: nowrap
+    margin-left: 20px
+
+  +max-width(800px)
+    width: 100%
+    z-index: 200
+    padding-right: 100px
+    p
+      margin-bottom: 20px
+
+  +min-width(801px)
+    display: flex
+    align-items: center
+    border-top-right-radius: $br
