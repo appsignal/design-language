@@ -11,6 +11,7 @@ $gray: $medium;
 
 $font-family: "Proxima Nova", "proxima-nova", Sans-Serif;
 $pre-font: Monaco, "Courier New", Courier, monospace;
+$handwritten: "GoodDog New";
 $font-weights: (light: 200, normal: 400, bold: 600);
 $font-size: 17px;
 $font-size-small: 13px;
@@ -89,6 +90,12 @@ $navigation: (
   ),
   (
     class: "workflow",
+    icon: "fa-user",
+    color: $blue,
+    background: linear-gradient(125deg,$blue,darken($blue,10))
+  ),
+  (
+    class: "anomalies",
     icon: "fa-user",
     color: $blue,
     background: linear-gradient(125deg,$blue,darken($blue,10))
