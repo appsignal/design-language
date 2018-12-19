@@ -7,7 +7,7 @@ $light: #e4ebef;
 $blue-light: $light;
 $blue-dark: $dark;
 $dark-blue: $darkest;
-$gray: $medium;
+$gray: mix($light,$medium);
 
 $font-family: "Proxima Nova", "proxima-nova", Sans-Serif;
 $pre-font: Monaco, "Courier New", Courier, monospace;
@@ -43,7 +43,7 @@ $colors: (
   ("orange", $orange),
   ("red", $red),
   ("yellow", $yellow),
-  ("gray", $gray),
+  ("gray", $medium),
   ("brown", $brown),
   ("terracotta", $terracotta),
   ("terracotta_light", $terracotta_light),
