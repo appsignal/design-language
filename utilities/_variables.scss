@@ -88,6 +88,11 @@ $navigation: (
     background: linear-gradient(125deg,$red,darken($red,10))
   ),
   (
+    class: "dashboard",
+    color: mix($dark,$purple),
+    background: linear-gradient(125deg,mix($dark,$purple),mix($dark,$purple,80))
+  ),
+  (
     class: "workflow",
     icon: "fa-user",
     color: $blue,
