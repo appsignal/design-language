@@ -9,7 +9,7 @@ $blue-dark: $dark;
 $dark-blue: $darkest;
 $gray: mix($light,$medium);
 
-$font-family: "Proxima Nova", "proxima-nova", Sans-Serif;
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $pre-font: Monaco, "Courier New", Courier, monospace;
 $font-weights: (light: 200, normal: 400, bold: 600);
 $font-size: 17px;
@@ -88,7 +88,18 @@ $navigation: (
     background: linear-gradient(125deg,$red,darken($red,10))
   ),
   (
+    class: "dashboard",
+    color: mix($dark,$purple),
+    background: linear-gradient(125deg,mix($dark,$purple),mix($dark,$purple,80))
+  ),
+  (
     class: "workflow",
+    icon: "fa-user",
+    color: $blue,
+    background: linear-gradient(125deg,$blue,darken($blue,10))
+  ),
+  (
+    class: "anomalies",
     icon: "fa-user",
     color: $blue,
     background: linear-gradient(125deg,$blue,darken($blue,10))

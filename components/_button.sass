@@ -9,7 +9,7 @@
   background: $green
   text-decoration: none
   +font-weight(bold)
-  +shadow(2)
+  +shadow
   cursor: pointer
 
   +hocus
@@ -60,3 +60,6 @@
     background: #fff
     border: 1px solid transparant
     color: $dark !important
+    +hocus
+      +shadow(2)
+      transform: translateY(-1px)
