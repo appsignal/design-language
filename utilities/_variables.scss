@@ -9,8 +9,7 @@ $blue-dark: $dark;
 $dark-blue: $darkest;
 $gray: mix($light,$medium);
 
-$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$pre-font: Monaco, "Courier New", Courier, monospace;
+$font-family: museo-sans-rounded, sans-serif;
 $font-weights: (light: 200, normal: 400, bold: 600);
 $font-size: 17px;
 $font-size-small: 13px;
@@ -22,12 +21,12 @@ $border-dark: #cfd8dc;
 
 $blue-light: $light;
 
-$blue: #0961c4;
+$blue: #2385F3;
 $brown: #c45621;
-$purple: #8a0c8f;
-$green: #4CAF50;
-$orange: #dc4904;
-$red: #c31633;
+$purple: #7500A5;
+$green: #00CA70;
+$orange: #FF7400;
+$red: #FF2525;
 $yellow: #efaa04;
 $cyan: #067d8a;
 $brown: brown;
@@ -58,7 +57,7 @@ $padding: 20px;
 $body-bg: $light;
 
 // Code fonts
-$pre-font: Monaco, "Courier New", Courier, monospace;
+$pre-font: "Alma Mono", Monaco, "Courier New", Courier, monospace;
 $code-color: #024966;
 $pre-color:  #ecf0f2;
 
@@ -66,7 +65,7 @@ $navigation: (
   (
     class: "errors",
     icon: "fa-exclamation-triangle",
-    color: $orange,
+    color: $red,
     background: linear-gradient(125deg,$orange,darken($orange,10))
   ),
   (
@@ -84,7 +83,7 @@ $navigation: (
   (
     class: "metrics",
     icon: "fa-area-chart",
-    color: $red,
+    color: $orange,
     background: linear-gradient(125deg,$red,darken($red,10))
   ),
   (

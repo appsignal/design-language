@@ -1,19 +1,19 @@
 .button
   display: inline-block
-  padding: 10px 20px
-  color: #fff !important
+  padding: 10px 25px
+  color: $green !important
   line-height: 30px
   font-size: 16px
   border: 1px solid transparent
-  border-radius: $br
-  background: $green
+  border-radius: 50px
+  background: rgba($green, 0.2)
   text-decoration: none
   +font-weight(bold)
-  +shadow
   cursor: pointer
 
   +hocus
-    background: darken($green,6)
+    background: $green
+    color: #fff !important
 
   &.small
     padding: 5px 20px
@@ -24,12 +24,13 @@
 
   &.outline-dark
     background: #fff
-    +shadow(2)
     color: $blue-dark !important
+    border: 1px solid $border-dark
 
     +hocus
       background: $blue-dark
       color: #fff !important
+      border: 1px solid $blue-dark
 
   &.orange
     background: $orange
@@ -51,7 +52,6 @@
     background: none
     border: 1px solid rgba(#fff, .3)
     color: #fff !important
-    box-shadow: none
 
     +hocus
       border: 1px solid rgba(#fff, .6)
@@ -61,5 +61,4 @@
     border: 1px solid transparant
     color: $dark !important
     +hocus
-      +shadow(2)
       transform: translateY(-1px)
