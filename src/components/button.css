@@ -1,0 +1,7 @@
+.c-button {
+  border-radius: 5px;
+
+  &--primary {
+    background-color: #09ba76;
+  }
+}

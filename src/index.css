@@ -1,0 +1,69 @@
+/**
+ * AppSignal Design Language
+ */
+
+/*
+ *
+ * Settings
+ *
+ * Global settings (e.g. variables). May be generated via design tokens.
+ *
+ */
+
+/*
+ *
+ * Generic
+ *
+ * Very high-level, far reaching styles (e.g. resets, normalizes)
+ *
+ */
+
+@import "normalize.css";
+
+/*
+ *
+ * Elements
+ *
+ * Bare, unclassed HTML elements (e.g. headers, form inputs)
+ *
+ */
+
+/*
+ *
+ * Objects
+ *
+ * Non-cosmetic design patterns (e.g. layout, media object)
+ *
+ */
+
+/*
+ *
+ * Components
+ *
+ * Recognisable pieces of UI.
+ *
+ */
+
+/*
+ *
+ * States
+ *
+ * Short-lived or temporary states of the UI that need styling
+ *
+ */
+
+/*
+ *
+ * States
+ *
+ * Utlity classes with a single responsibility
+ *
+ */
+
+/*
+ *
+ * HAXX ZONE
+ *
+ * Because, sometimes, you just have to.
+ *
+ */
