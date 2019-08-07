@@ -5,49 +5,49 @@
       "value": "#FFFFFFF",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color white"
     },
     "COLOR_BRAND_GREY-LIGHT": {
       "value": "#F5F6F9",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color grey light"
     },
     "COLOR_BRAND_GREY": {
       "value": "#C9CFDD",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color grey"
     },
     "COLOR_BRAND_DARK": {
       "value": "#6B7B96",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color dark"
     },
     "COLOR_BRAND_DARKEST": {
       "value": "#011940",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color darkest"
     },
     "COLOR_BRAND_GREEN_LIGHT": {
       "value": "#CEF1E4",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color green light"
     },
     "COLOR_BRAND_GREEN": {
       "value": "#09BA76",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color green"
     },
     "COLOR_BRAND_GREEN_DARK": {
       "value": "#069961",
       "type": "color",
       "category": "background-color",
-      "comment": "White color"
+      "comment": "Brand color green_dark"
     },
     "COLOR_THEME_Green": {
       "value": "#09BA76",
