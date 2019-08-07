@@ -1,11 +1,107 @@
 {
   "imports": [],
   "props": {
-    "COLOR_BRAND": {
+    "COLOR_BRAND_WHITE": {
       "value": "#FFFFFFF",
       "type": "color",
       "category": "background-color",
-      "comment": "Some comment about how to use it."
+      "comment": "White color"
+    },
+    "COLOR_BRAND_GREY-LIGHT": {
+      "value": "#F5F6F9",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_GREY": {
+      "value": "#C9CFDD",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_DARK": {
+      "value": "#6B7B96",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_DARKEST": {
+      "value": "#011940",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_GREEN_LIGHT": {
+      "value": "#CEF1E4",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_GREEN": {
+      "value": "#09BA76",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_BRAND_GREEN_DARK": {
+      "value": "#069961",
+      "type": "color",
+      "category": "background-color",
+      "comment": "White color"
+    },
+    "COLOR_THEME_Green": {
+      "value": "#09BA76",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Green"
+    },
+    "COLOR_THEME_Pink": {
+      "value": "#FF6A9C",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Pink"
+    },
+    "COLOR_THEME_Red": {
+      "value": "#D20325",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Red"
+    },
+    "COLOR_THEME_Orange": {
+      "value": "#F35320",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Orange"
+    },
+    "COLOR_THEME_purple": {
+      "value": "#7826A2",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color purple"
+    },
+    "COLOR_THEME_Blue": {
+      "value": "#2166CD",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Blue"
+    },
+    "COLOR_THEME_Cyan": {
+      "value": "#029B9B",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Cyan"
+    },
+    "COLOR_THEME_brown": {
+      "value": "#8E523D",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color brown"
+    },
+    "COLOR_THEME_Yellow": {
+      "value": "#F8A221",
+      "type": "color",
+      "category": "background-color",
+      "comment": "Theme color Yellow"
     }
   }
 }
