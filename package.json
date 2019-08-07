@@ -1,6 +1,7 @@
 {
   "name": "@appsignal/design-language",
   "version": "1.0.0",
+  "main": "./dist/design-language.css",
   "style": "./dist/design-language.css",
   "repository": "git@github.com:appsignal/design-language.git",
   "devDependencies": {

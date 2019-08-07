@@ -14,7 +14,7 @@
  *
  * Generic
  *
- * Very high-level, far reaching styles (e.g. resets, normalizes)
+ * Very high-level, far reaching styles (e.g. resets, normalizes).
  *
  */
 
@@ -24,7 +24,7 @@
  *
  * Elements
  *
- * Bare, unclassed HTML elements (e.g. headers, form inputs)
+ * Bare, unclassed HTML elements (e.g. headers, form inputs).
  *
  */
 
@@ -32,7 +32,7 @@
  *
  * Objects
  *
- * Non-cosmetic design patterns (e.g. layout, media object)
+ * Non-cosmetic design patterns (e.g. layout, media object).
  *
  */
 
@@ -44,19 +44,21 @@
  *
  */
 
-/*
- *
- * States
- *
- * Short-lived or temporary states of the UI that need styling
- *
- */
+@import "./components/button.css";
 
 /*
  *
  * States
  *
- * Utlity classes with a single responsibility
+ * Short-lived or temporary states of the UI that need styling.
+ *
+ */
+
+/*
+ *
+ * Utilities
+ *
+ * Utlity classes with a single responsibility.
  *
  */
 
