@@ -1,0 +1,50 @@
+{
+  "global": {
+    "type": "color",
+    "category": "background-color"
+  },
+  "props": [
+    {
+      "name": "BORDER_RADIUS_SMALL",
+      "value": "3px",
+      "type": "size",
+      "category": "radius"
+    },
+    {
+      "name": "BORDER_RADIUS",
+      "value": "5px",
+      "type": "size",
+      "category": "radius"
+    },
+    {
+      "name": "BORDER_RADIUS_LARGE",
+      "value": "8px",
+      "type": "size",
+      "category": "radius"
+    },
+    {
+      "name": "BORDER_RADIUS_CIRCLE",
+      "value": "50%",
+      "type": "size",
+      "category": "radius"
+    },
+    {
+      "name": "COLOR_BORDER_SEPARATOR",
+      "value": "#C9CFDD",
+      "type": "color",
+      "category": "hr-color"
+    },
+    {
+      "name": "COLOR_BORDER_DARK",
+      "value": "#C9CFDD",
+      "type": "color",
+      "category": "border-color"
+    },
+    {
+      "name": "COLOR_BORDER",
+      "value": "#F5F6F9",
+      "type": "color",
+      "category": "border-color"
+    }
+  ]
+}
