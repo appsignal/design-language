@@ -6,7 +6,7 @@
   "props": [
     {
       "name": "COLOR_BRAND_WHITE",
-      "value": "#FFFFFFF",
+      "value": "#FFFFFF",
       "comment": "Brand color white"
     },
     {
