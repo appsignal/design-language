@@ -21,6 +21,7 @@
  */
 
 @import "normalize.css";
+@import "./generic/box-sizing";
 @import "./generic/typography";
 
 /*
