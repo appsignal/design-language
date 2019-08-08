@@ -4,30 +4,30 @@
   vertical-align: middle;
   user-select: none;
   background-color: transparent;
-  border-radius: 3rem;
+  border-radius: var(--border-radius);
   color: var(--color-brand-white);
   border: none;
-  font-style: 700;
+  font-weight: 500;
 
-  &--square {
-    border-radius: 0.1875rem;
+  &--rounded {
+    border-radius: 50px;
   }
 
   &--l {
     padding: 0.875rem 1.875rem 1.0625rem;
-    font-size: 1.5rem;
+    font-size: var(--font-size-large);
     line-height: 29px;
   }
 
   &--m {
     padding: 0.5625rem 1.5rem 0.75rem;
-    font-size: 1.25rem;
+    font-size: var(--font-size-medium);
     line-height: 24px;
   }
 
   &--s {
     padding: 0.5rem 1.25rem;
-    font-size: 1rem;
+    font-size: var(--font-size-normal);
     line-height: 19px;
   }
 
@@ -41,19 +41,11 @@
 
   &--secondary {
     color: var(--color-brand-green);
-
-    /*
-     * @TODO: should this be a real color instead of a transparency?
-     */
-    background: rgba(9, 186, 118, 0.2);
+    background-color: var(--color-brand-green-light);
   }
 
   &--secondary:hover {
     color: var(--color-brand-green-dark);
-
-    /*
-     * @TODO: should this be a real color instead of a transparency?
-     */
-    background: rgba(9, 186, 118, 0.4);
+    background-color: var(--color-brand-green-medium);
   }
 }
