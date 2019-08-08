@@ -39,12 +39,12 @@
     background-color: var(--color-brand-green-dark);
   }
 
-  &--secondary {
+  &--subtle {
     color: var(--color-brand-green);
     background-color: var(--color-brand-green-light);
   }
 
-  &--secondary:hover {
+  &--subtle:hover {
     color: var(--color-brand-green-dark);
     background-color: var(--color-brand-green-medium);
   }
