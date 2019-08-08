@@ -1,7 +1,59 @@
 .c-button {
-  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border-radius: 3rem;
+  color: var(--color-brand-white);
+  border: none;
+  font-style: 700;
+
+  &--square {
+    border-radius: 0.1875rem;
+  }
+
+  &--l {
+    padding: 0.875rem 1.875rem 1.0625rem;
+    font-size: 1.5rem;
+    line-height: 29px;
+  }
+
+  &--m {
+    padding: 0.5625rem 1.5rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+
+  &--s {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    line-height: 19px;
+  }
 
   &--primary {
-    background-color: #09ba76;
+    background: var(--color-brand-green);
+  }
+
+  &--primary:hover {
+    background-color: var(--color-brand-green-dark);
+  }
+
+  &--secondary {
+    color: var(--color-brand-green);
+
+    /*
+     * @TODO: should this be a real color instead of a transparency?
+     */
+    background: rgba(9, 186, 118, 0.2);
+  }
+
+  &--secondary:hover {
+    color: var(--color-brand-green-dark);
+
+    /*
+     * @TODO: should this be a real color instead of a transparency?
+     */
+    background: rgba(9, 186, 118, 0.4);
   }
 }

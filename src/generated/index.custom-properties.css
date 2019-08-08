@@ -1,0 +1,68 @@
+:root {
+  --spacing-x-small: 3px;
+  --spacing-small: 5px;
+  --spacing-medium: 10px;
+  --spacing-normal: 20px;
+  --spacing-large: 30px;
+  --spacing-x-large: 40px;
+
+  /* Theme color Orange */
+  --color-theme-orange: #f35320;
+
+  /* Theme color brown */
+  --color-theme-brown: #8e523d;
+
+  /* Brand color green_dark */
+  --color-brand-green-dark: #069961;
+
+  /* Brand color green light */
+  --color-brand-green-light: #cef1e4;
+
+  /* Theme color Yellow */
+  --color-theme-yellow: #f8a221;
+
+  /* Theme color Pink */
+  --color-theme-pink: #ff6a9c;
+
+  /* Brand color dark */
+  --color-brand-dark: #6b7b96;
+
+  /* Theme color Blue */
+  --color-theme-blue: #2166cd;
+
+  /* Theme color purple */
+  --color-theme-purple: #7826a2;
+
+  /* Brand color green */
+  --color-brand-green: #09ba76;
+
+  /* Theme color Green */
+  --color-theme-green: #09ba76;
+
+  /* Brand color grey */
+  --color-brand-grey: #c9cfdd;
+
+  /* Brand color white */
+  --color-brand-white: #fff;
+
+  /* Theme color Cyan */
+  --color-theme-cyan: #029b9b;
+
+  /* Brand color darkest */
+  --color-brand-darkest: #011940;
+
+  /* Brand color grey light */
+  --color-brand-grey-light: #f5f6f9;
+
+  /* Theme color Red */
+  --color-theme-red: #d20325;
+  --font-size-x-small: 10px;
+  --font-size-small: 12px;
+  --font-size-normal: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-x-large: 30px;
+  --font-size-xx-large: 40px;
+  --default: Museo Sans Rounded;
+  --monospaced: Alma Mono;
+}

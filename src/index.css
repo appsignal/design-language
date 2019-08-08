@@ -10,6 +10,8 @@
  *
  */
 
+@import "./generated/index.custom-properties";
+
 /*
  *
  * Generic
@@ -19,12 +21,13 @@
  */
 
 @import "normalize.css";
+@import "./generic/typography";
 
 /*
  *
  * Elements
  *
- * Bare, unclassed HTML elements (e.g. headers, form inputs).
+ * Bare, unclassed HTML elements (e.g. headings, form inputs).
  *
  */
 
@@ -36,6 +39,8 @@
  *
  */
 
+@import "./objects/flex";
+
 /*
  *
  * Components
@@ -44,15 +49,7 @@
  *
  */
 
-@import "./components/button.css";
-
-/*
- *
- * States
- *
- * Short-lived or temporary states of the UI that need styling.
- *
- */
+@import "./components/button";
 
 /*
  *
@@ -62,10 +59,12 @@
  *
  */
 
+@import "./utils/bg-color";
+
 /*
  *
  * HAXX ZONE
  *
- * Because, sometimes, you just have to.
+ * Because, sometimes, you just have to. Write hacks inline below.
  *
  */
