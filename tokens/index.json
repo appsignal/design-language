@@ -1,9 +1,10 @@
 {
   "imports": [
-    "./spacing.json",
+    "./borders.json",
     "./colors.json",
     "./font.json",
-    "./font-family.json"
+    "./font-family.json",
+    "./spacing.json"
   ],
   "props": {}
 }
