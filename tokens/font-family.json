@@ -1,0 +1,14 @@
+{
+  "global": {
+    "type": "family",
+    "category": "font-family"
+  },
+  "props": {
+    "default": {
+      "value": "Museo Sans Rounded"
+    },
+    "monospaced": {
+      "value": "Alma Mono"
+    }
+  }
+}

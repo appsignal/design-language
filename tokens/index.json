@@ -1,11 +1,9 @@
 {
-  "imports": [],
-  "props": {
-    "COLOR_BRAND": {
-      "value": "#FFFFFFF",
-      "type": "color",
-      "category": "background-color",
-      "comment": "Some comment about how to use it."
-    }
-  }
+  "imports": [
+    "./spacing.json",
+    "./colors.json",
+    "./font.json",
+    "./font-family.json"
+  ],
+  "props": {}
 }
