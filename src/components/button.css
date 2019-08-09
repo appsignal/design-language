@@ -1,13 +1,13 @@
 .c-button {
   display: inline-block;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: transparent;
+  color: var(--color-brand-white);
+  font-weight: 500;
   text-align: center;
   vertical-align: middle;
   user-select: none;
-  background-color: transparent;
-  border-radius: var(--border-radius);
-  color: var(--color-brand-white);
-  border: none;
-  font-weight: 500;
 
   &--rounded {
     border-radius: 50px;
@@ -32,7 +32,7 @@
   }
 
   &--primary {
-    background: var(--color-brand-green);
+    background-color: var(--color-brand-green);
   }
 
   &--primary:hover {
@@ -40,12 +40,12 @@
   }
 
   &--subtle {
-    color: var(--color-brand-green);
     background-color: var(--color-brand-green-light);
+    color: var(--color-brand-green);
   }
 
   &--subtle:hover {
-    color: var(--color-brand-green-dark);
     background-color: var(--color-brand-green-medium);
+    color: var(--color-brand-green-dark);
   }
 }
