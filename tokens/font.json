@@ -3,27 +3,42 @@
     "type": "size",
     "category": "font-size"
   },
-  "props": {
-    "FONT_SIZE_TINY": {
-      "value": "0.625rem"
+  "props": [
+    {
+      "name": "FONT_SIZE_TINY",
+      "value": "0.64rem"
     },
-    "FONT_SIZE_SMALL": {
-      "value": "0.875rem"
+    {
+      "name": "FONT_SIZE_SMALL",
+      "value": "0.8rem"
     },
-    "FONT_SIZE_NORMAL": {
+    {
+      "name": "FONT_SIZE_ROOT",
+      "value": "16px"
+    },
+    {
+      "name": "FONT_SIZE_NORMAL",
       "value": "1rem"
     },
-    "FONT_SIZE_MEDIUM": {
+    {
+      "name": "FONT_SIZE_MEDIUM",
       "value": "1.25rem"
     },
-    "FONT_SIZE_LARGE": {
+    {
+      "name": "FONT_SIZE_LARGE",
       "value": "1.5rem"
     },
-    "FONT_SIZE_X_LARGE": {
-      "value": "2.5rem"
+    {
+      "name": "FONT_SIZE_X_LARGE",
+      "value": "1.953rem"
     },
-    "FONT_SIZE_XX_LARGE": {
-      "value": "3.125rem"
+    {
+      "name": "FONT_SIZE_XX_LARGE",
+      "value": "2.441rem"
+    },
+    {
+      "name": "FONT_SIZE_XXX_LARGE",
+      "value": "3.052rem"
     }
-  }
+  ]
 }
