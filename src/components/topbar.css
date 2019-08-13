@@ -1,0 +1,18 @@
+.c-topbar {
+  height: 7.5rem;
+  border-bottom: 1px solid var(--color-brand-grey);
+
+  &__nav,
+  &__logo,
+  &__login {
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 4rem;
+  }
+
+  &__login {
+    margin-left: auto;
+  }
+}
