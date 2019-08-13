@@ -13,19 +13,19 @@
     border-radius: 50px;
   }
 
-  &--l {
+  &--lg {
     padding: 0.875rem 1.875rem 1.0625rem;
     font-size: var(--font-size-large);
     line-height: 29px;
   }
 
-  &--m {
+  &--md {
     padding: 0.5625rem 1.5rem 0.75rem;
     font-size: var(--font-size-medium);
     line-height: 24px;
   }
 
-  &--s {
+  &--sm {
     padding: 0.5rem 1.25rem;
     font-size: var(--font-size-normal);
     line-height: 19px;
