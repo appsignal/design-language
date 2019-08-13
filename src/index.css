@@ -41,6 +41,8 @@
  */
 
 @import "./objects/flex";
+@import "./objects/grid";
+@import "./objects/layout";
 
 /*
  *
@@ -61,6 +63,7 @@
  */
 
 @import "./utils/bg-color";
+@import "./utils/grid";
 
 /*
  *
