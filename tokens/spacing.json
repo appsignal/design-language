@@ -35,7 +35,7 @@
       "comment": "For paddings in labels / inline stuff"
     },
     {
-      "name": "SPACING_NORMAL:",
+      "name": "SPACING_NORMAL",
       "value": "16px",
       "comment": "Regular padding for compact tables and such"
     },
