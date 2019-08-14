@@ -60,13 +60,15 @@
 
   /* Theme color Yellow */
   --color-theme-yellow: #f8a221;
-  --font-size-tiny: 0.625rem;
-  --font-size-small: 0.875rem;
+  --font-size-tiny: 0.64rem;
+  --font-size-small: 0.8rem;
+  --font-size-root: 16px;
   --font-size-normal: 1rem;
   --font-size-medium: 1.25rem;
   --font-size-large: 1.5rem;
-  --font-size-x-large: 2.5rem;
-  --font-size-xx-large: 3.125rem;
+  --font-size-x-large: 1.953rem;
+  --font-size-xx-large: 2.441rem;
+  --font-size-xxx-large: 3.052rem;
   --default: Museo Sans Rounded;
   --monospaced: Alma Mono;
   --spacing-x-small: 3px;
