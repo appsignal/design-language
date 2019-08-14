@@ -2,8 +2,8 @@
   display: inline-block;
   border: none;
   border-radius: var(--border-radius);
-  background-color: transparent;
-  color: var(--color-brand-white);
+  background-color: var(--color-brand-white);
+  color: var(--color-brand-darkest);
   font-weight: 500;
   text-align: center;
   vertical-align: middle;
@@ -33,6 +33,7 @@
 
   &--primary {
     background-color: var(--color-brand-green);
+    color: var(--color-brand-white);
   }
 
   &--primary:hover {
