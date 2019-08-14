@@ -6,19 +6,19 @@
   "props": [
     {
       "name": "BORDER_RADIUS_SMALL",
-      "value": "3px",
+      "value": "4px",
       "type": "size",
       "category": "radius"
     },
     {
       "name": "BORDER_RADIUS",
-      "value": "5px",
+      "value": "8px",
       "type": "size",
       "category": "radius"
     },
     {
       "name": "BORDER_RADIUS_LARGE",
-      "value": "8px",
+      "value": "12px",
       "type": "size",
       "category": "radius"
     },
