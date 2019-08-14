@@ -1,7 +1,7 @@
 :root {
-  --border-radius-small: 3px;
-  --border-radius: 5px;
-  --border-radius-large: 8px;
+  --border-radius-small: 4px;
+  --border-radius: 8px;
+  --border-radius-large: 12px;
   --border-radius-circle: 50%;
   --color-border-separator: #c9cfdd;
   --color-border-dark: #c9cfdd;
@@ -71,10 +71,37 @@
   --font-size-xxx-large: 3.052rem;
   --default: Museo Sans Rounded;
   --monospaced: Alma Mono;
-  --spacing-x-small: 3px;
-  --spacing-small: 5px;
-  --spacing-medium: 10px;
-  --spacing-normal: 20px;
-  --spacing-large: 30px;
-  --spacing-x-large: 40px;
+
+  /* Grid gutter size */
+  --spacing-grid-gutter: 24px;
+
+  /* Grid outside margin */
+  --spacing-grid-margin: 36px;
+
+  /* Grid column size */
+  --spacing-grid-column: 72px;
+
+  /* For micro adjustments */
+  --spacing-x-small: 2px;
+
+  /* For micro adjustments */
+  --spacing-small: 4px;
+
+  /* For paddings in labels / inline stuff */
+  --spacing-medium: 8px;
+
+  /* Regular padding for compact tables and such */
+  --spacing-normal: 16px;
+
+  /* Padding for the inside of boxes */
+  --spacing-large: 24px;
+
+  /* Padding between elements and for boxes with larger font-sizes */
+  --spacing-x-large: 36px;
+
+  /* Larger padding for when bigger spacing is needed */
+  --spacing-xx-large: 48px;
+
+  /* Huge padding we can use for seperation of vertical sections */
+  --spacing-xxx-large: 96px;
 }
