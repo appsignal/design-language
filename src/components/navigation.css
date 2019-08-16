@@ -4,7 +4,7 @@
   list-style: none;
 
   &__item {
-    margin-right: 2rem;
+    margin-right: var(--spacing-medium);
   }
 
   &__link {

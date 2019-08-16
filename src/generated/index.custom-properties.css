@@ -73,35 +73,38 @@
   --monospaced: Alma Mono;
 
   /* Grid gutter size */
-  --spacing-grid-gutter: 24px;
+  --spacing-grid-gutter: 1.5rem;
 
   /* Grid outside margin */
-  --spacing-grid-margin: 36px;
+  --spacing-grid-margin: 2.25rem;
 
   /* Grid column size */
-  --spacing-grid-column: 72px;
+  --spacing-grid-column: 45rem;
 
   /* For micro adjustments */
-  --spacing-x-small: 2px;
+  --spacing-xx-small: 0.444rem;
 
   /* For micro adjustments */
-  --spacing-small: 4px;
+  --spacing-x-small: 0.667rem;
 
   /* For paddings in labels / inline stuff */
-  --spacing-medium: 8px;
+  --spacing-small: 1rem;
 
   /* Regular padding for compact tables and such */
-  --spacing-normal: 16px;
+  --spacing-normal: 1.5rem;
+
+  /* For paddings in labels / inline stuff */
+  --spacing-medium: 2.25rem;
 
   /* Padding for the inside of boxes */
-  --spacing-large: 24px;
+  --spacing-large: 3.375rem;
 
   /* Padding between elements and for boxes with larger font-sizes */
-  --spacing-x-large: 36px;
+  --spacing-x-large: 5.0625rem;
 
   /* Larger padding for when bigger spacing is needed */
-  --spacing-xx-large: 48px;
+  --spacing-xx-large: 7.6rem;
 
   /* Huge padding we can use for seperation of vertical sections */
-  --spacing-xxx-large: 96px;
+  --spacing-xxx-large: 11.4rem;
 }
