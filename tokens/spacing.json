@@ -6,57 +6,62 @@
   "props": [
     {
       "name": "SPACING_GRID_GUTTER",
-      "value": "24px",
+      "value": "1.5rem",
       "comment": "Grid gutter size"
     },
     {
       "name": "SPACING_GRID_MARGIN",
-      "value": "36px",
+      "value": "2.25rem",
       "comment": "Grid outside margin"
     },
     {
       "name": "SPACING_GRID_COLUMN",
-      "value": "72px",
+      "value": "45rem",
       "comment": "Grid column size"
     },
     {
+      "name": "SPACING_XX_SMALL",
+      "value": "0.444rem",
+      "comment": "For micro adjustments"
+    },
+    {
       "name": "SPACING_X_SMALL",
-      "value": "2px",
+      "value": "0.667rem",
       "comment": "For micro adjustments"
     },
     {
       "name": "SPACING_SMALL",
-      "value": "4px",
-      "comment": "For micro adjustments"
-    },
-    {
-      "name": "SPACING_MEDIUM",
-      "value": "8px",
+      "value": "1rem",
       "comment": "For paddings in labels / inline stuff"
     },
     {
       "name": "SPACING_NORMAL",
-      "value": "16px",
-      "comment": "Regular padding for compact tables and such"
+      "value": "1.5rem",
+      "comment": "Regular padding for compact tables and such."
+    },
+    {
+      "name": "SPACING_MEDIUM",
+      "value": "2.25rem",
+      "comment": "For paddings in labels / inline stuff"
     },
     {
       "name": "SPACING_LARGE",
-      "value": "24px",
+      "value": "3.375rem",
       "comment": "Padding for the inside of boxes"
     },
     {
       "name": "SPACING_X_LARGE",
-      "value": "36px",
+      "value": "5.0625rem",
       "comment": "Padding between elements and for boxes with larger font-sizes"
     },
     {
       "name": "SPACING_XX_LARGE",
-      "value": "48px",
+      "value": "7.6rem",
       "comment": "Larger padding for when bigger spacing is needed"
     },
     {
       "name": "SPACING_XXX_LARGE",
-      "value": "96px",
+      "value": "11.4rem",
       "comment": "Huge padding we can use for seperation of vertical sections"
     }
   ]

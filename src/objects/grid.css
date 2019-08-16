@@ -1,6 +1,6 @@
 .o-grid {
   display: grid;
-  grid-column-gap: 1.5rem;
+  grid-column-gap: var(--spacing-grid-gutter);
   grid-row-gap: 1rem;
 
   @media (min-width: 75rem) {
