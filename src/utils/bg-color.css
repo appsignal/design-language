@@ -2,4 +2,12 @@
   &--primary {
     background: var(--color-brand-green);
   }
+
+  &--grey-light {
+    background: var(--color-brand-grey-light);
+  }
+
+  &--grey {
+    background: var(--color-brand-grey);
+  }
 }
