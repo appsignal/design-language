@@ -21,8 +21,8 @@
     "theo": "^8.1.4"
   },
   "scripts": {
-    "build": "postcss src/index.css -o dist/design-language.css",
-    "build:watch": "postcss src/index.css -o dist/design-language.css -w",
+    "build": "yarn build:tokens && postcss src/index.css -o dist/design-language.css",
+    "build:watch": "yarn build:tokens && postcss src/index.css -o dist/design-language.css -w",
     "build:tokens": "theo tokens/index.json --format custom-properties.css --dest src/generated",
     "lint": "stylelint 'src/**/*.css'",
     "lint:fix": "stylelint 'src/**/*.css' --fix",
