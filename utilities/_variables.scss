@@ -1,38 +1,35 @@
 // Dark shades
 $darkest: #011940;
-$dark: #122B53;
-$medium: #2d3f5c;
-$light: #e4ebef;
+$dark: #21375A;
+$medium: #6B7B96;
+$light: #F5F6F9;
 
 $blue-light: $light;
 $blue-dark: $dark;
 $dark-blue: $darkest;
 $gray: mix($light,$medium);
 
-$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family: "MuseoSansRounded";
 $pre-font: Monaco, "Courier New", Courier, monospace;
 $font-weights: (light: 200, normal: 400, bold: 600);
-$font-size: 17px;
+$font-size: 16px;
 $font-size-small: 13px;
-$line-height: 1.76471;
+$line-height: 1.5;
 $font-color: $blue-dark;
 
-$border: mix($light,white);
-$border-dark: #cfd8dc;
+$border: $light;
+$border-dark: #C9CFDD;
 
 $blue-light: $light;
 
-$blue: #0961c4;
-$brown: #c45621;
-$purple: #8a0c8f;
-$green: #4CAF50;
-$orange: #dc4904;
-$red: #c31633;
-$yellow: #efaa04;
-$cyan: #067d8a;
-$brown: brown;
-$terracotta: #c45621;
-$terracotta_light: #cd6f42;
+$blue: #2166CD;
+$brown: #8E523D;
+$purple: #7826A2;
+$green: #09BA76;
+$orange: #F35320;
+$red: #D20325;
+$yellow: #F8A221;
+$cyan: #029B9B;
 
 // Color list
 
@@ -45,8 +42,6 @@ $colors: (
   ("yellow", $yellow),
   ("gray", $medium),
   ("brown", $brown),
-  ("terracotta", $terracotta),
-  ("terracotta_light", $terracotta_light),
   ("cyan", $cyan)
 );
 
@@ -58,7 +53,6 @@ $padding: 20px;
 $body-bg: $light;
 
 // Code fonts
-$pre-font: Monaco, "Courier New", Courier, monospace;
 $code-color: #024966;
 $pre-color:  #ecf0f2;
 
