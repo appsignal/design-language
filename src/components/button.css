@@ -3,8 +3,8 @@
   border: 1px solid var(--color-border-dark);
   border-radius: var(--border-radius);
   outline: none;
-  background-color: var(--color-brand-white);
-  color: var(--color-brand-darkest);
+  background-color: var(--color-white);
+  color: var(--color-darkest);
   font-weight: 500;
   line-height: calc(1em - 1px);
   text-align: center;
@@ -33,39 +33,39 @@
   }
 
   &--primary {
-    border-color: var(--color-brand-green);
-    background-color: var(--color-brand-green);
-    color: var(--color-brand-white);
+    border-color: var(--color-green);
+    background-color: var(--color-green);
+    color: var(--color-white);
   }
 
   &--primary:hover {
-    border-color: var(--color-brand-green-dark);
-    background-color: var(--color-brand-green-dark);
+    border-color: var(--color-green-dark);
+    background-color: var(--color-green-dark);
   }
 
   &--subtle {
-    border-color: var(--color-brand-green-light);
-    background-color: var(--color-brand-green-light);
-    color: var(--color-brand-green);
+    border-color: var(--color-green-light);
+    background-color: var(--color-green-light);
+    color: var(--color-green);
   }
 
   &--subtle:hover {
-    border-color: var(--color-brand-green-medium);
-    background-color: var(--color-brand-green-medium);
-    color: var(--color-brand-green-dark);
+    border-color: var(--color-green-medium);
+    background-color: var(--color-green-medium);
+    color: var(--color-green-dark);
   }
 
   &--secondary {
     border-color: var(--color-border-dark);
-    background-color: var(--color-brand-white);
-    color: var(--color-brand-dark);
+    background-color: var(--color-white);
+    color: var(--color-dark);
   }
 
   &--secondary:hover {
-    background-color: var(--color-brand-grey-light);
-    color: var(--color-brand-darkest);
+    background-color: var(--color-grey-light);
+    color: var(--color-darkest);
   }
-  
+
   &:not(.is-disabled) {
     cursor: pointer;
   }

@@ -9,11 +9,11 @@
 
   &__link {
     display: block;
-    color: var(--color-brand-dark);
+    color: var(--color-grey-dark);
     text-decoration: none;
   }
 
   &__link:hover {
-    color: var(--color-brand-darkest);
+    color: var(--color-grey-darkest);
   }
 }

@@ -1,6 +1,6 @@
 html,
 body {
-  color: var(--color-brand-darkest);
+  color: var(--color-grey-darkest);
   font-family: var(--default), sans-serif;
 
   /* base font size, equal to --font-size-normal */

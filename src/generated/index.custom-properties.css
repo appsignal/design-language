@@ -7,59 +7,56 @@
   --color-border-dark: #c9cfdd;
   --color-border: #f5f6f9;
 
-  /* Brand color white */
-  --color-brand-white: #fff;
+  /* color white */
+  --color-white: #fff;
 
-  /* Brand color grey light */
-  --color-brand-grey-light: #f5f6f9;
+  /* color grey light */
+  --color-grey-light: #f5f6f9;
 
-  /* Brand color grey */
-  --color-brand-grey: #c9cfdd;
+  /* color grey */
+  --color-grey: #c9cfdd;
 
-  /* Brand color dark */
-  --color-brand-dark: #6b7b96;
+  /* color dark */
+  --color-grey-dark: #6b7b96;
 
-  /* Brand color darkest */
-  --color-brand-darkest: #011940;
+  /* color darkest */
+  --color-grey-darkest: #011940;
 
-  /* Brand color green light */
-  --color-brand-green-light: #cef1e4;
+  /* color green light */
+  --color-green-light: #cef1e4;
 
-  /* Brand color green medium */
-  --color-brand-green-medium: #9de3c8;
+  /* color green medium */
+  --color-green-medium: #9de3c8;
 
-  /* Brand color green */
-  --color-brand-green: #09ba76;
+  /* color green */
+  --color-green: #09ba76;
 
-  /* Brand color green_dark */
-  --color-brand-green-dark: #069961;
+  /* color green_dark */
+  --color-green-dark: #069961;
 
-  /* Theme color Green */
-  --color-theme-green: #09ba76;
+  /* color Pink */
+  --color-pink: #ff6a9c;
 
-  /* Theme color Pink */
-  --color-theme-pink: #ff6a9c;
+  /* color Red */
+  --color-red: #d20325;
 
-  /* Theme color Red */
-  --color-theme-red: #d20325;
+  /* color Orange */
+  --color-orange: #f35320;
 
-  /* Theme color Orange */
-  --color-theme-orange: #f35320;
+  /* color purple */
+  --color-purple: #7826a2;
 
-  /* Theme color purple */
-  --color-theme-purple: #7826a2;
+  /* color Blue */
+  --color-blue: #2166cd;
 
-  /* Theme color Blue */
-  --color-theme-blue: #2166cd;
+  /* color Cyan */
+  --color-cyan: #029b9b;
 
-  /* Theme color Cyan */
-  --color-theme-cyan: #029b9b;
+  /* color brown */
+  --color-brown: #8e523d;
 
-  /* Theme color brown */
-  --color-theme-brown: #8e523d;
-
-  /* Theme color Yellow */
-  --color-theme-yellow: #f8a221;
+  /* color Yellow */
+  --color-yellow: #f8a221;
   --font-size-tiny: 0.64rem;
   --font-size-small: 0.8rem;
   --font-size-root: 16px;
@@ -90,7 +87,7 @@
   /* For paddings in labels / inline stuff */
   --spacing-small: 1rem;
 
-  /* Regular padding for compact tables and such */
+  /* Regular padding for compact tables and such. */
   --spacing-normal: 1.5rem;
 
   /* For paddings in labels / inline stuff */
