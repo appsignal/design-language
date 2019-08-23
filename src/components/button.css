@@ -1,10 +1,10 @@
 .c-button {
+  @extend .u-bg--white, .u-text--grey-darkest;
+
   display: inline-block;
   border: 1px solid var(--color-border-dark);
   border-radius: var(--border-radius);
   outline: none;
-  background-color: var(--color-white);
-  color: var(--color-grey-darkest);
   font-weight: 500;
   line-height: calc(1em - 1px);
   text-align: center;
@@ -33,37 +33,37 @@
   }
 
   &--primary {
+    @extend .u-bg--green, .u-text--white;
+
     border-color: var(--color-green);
-    background-color: var(--color-green);
-    color: var(--color-white);
   }
 
   &--primary:hover {
+    @extend .u-bg--green-dark;
+
     border-color: var(--color-green-dark);
-    background-color: var(--color-green-dark);
   }
 
   &--subtle {
+    @extend .u-bg--green-light, .u-text--green;
+
     border-color: var(--color-green-light);
-    background-color: var(--color-green-light);
-    color: var(--color-green);
   }
 
   &--subtle:hover {
+    @extend .u-bg--green-medium, .u-text-green-dark;
+
     border-color: var(--color-green-medium);
-    background-color: var(--color-green-medium);
-    color: var(--color-green-dark);
   }
 
   &--secondary {
+    @extend .u-bg-white, .u-text-grey-dark;
+
     border-color: var(--color-border-dark);
-    background-color: var(--color-white);
-    color: var(--color-grey-dark);
   }
 
   &--secondary:hover {
-    background-color: var(--color-grey-light);
-    color: var(--color-grey-darkest);
+    @extend .u-bg--grey-light, .u-text-grey-darkest;
   }
 
   &:not(.is-disabled) {
