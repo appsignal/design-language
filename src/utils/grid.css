@@ -1,3 +1,201 @@
+.u-1\/12 {
+  grid-column: span 1;
+}
+
+.u-2\/12 {
+  grid-column: span 2;
+}
+
+.u-3\/12 {
+  grid-column: span 3;
+}
+
+.u-4\/12 {
+  grid-column: span 4;
+}
+
+.u-5\/12 {
+  grid-column: span 5;
+}
+
+.u-6\/12 {
+  grid-column: span 6;
+}
+
+.u-7\/12 {
+  grid-column: span 7;
+}
+
+.u-8\/12 {
+  grid-column: span 8;
+}
+
+.u-9\/12 {
+  grid-column: span 9;
+}
+
+.u-10\/12 {
+  grid-column: span 10;
+}
+
+.u-11\/12 {
+  grid-column: span 11;
+}
+
+.u-12\/12 {
+  grid-column: span 12;
+}
+
+@media (min-width: 25rem) {
+  .u-1\/12\@sm {
+    grid-column: span 1;
+  }
+
+  .u-2\/12\@sm {
+    grid-column: span 2;
+  }
+
+  .u-3\/12\@sm {
+    grid-column: span 3;
+  }
+
+  .u-4\/12\@sm {
+    grid-column: span 4;
+  }
+
+  .u-5\/12\@sm {
+    grid-column: span 5;
+  }
+
+  .u-6\/12\@sm {
+    grid-column: span 6;
+  }
+
+  .u-7\/12\@sm {
+    grid-column: span 7;
+  }
+
+  .u-8\/12\@sm {
+    grid-column: span 8;
+  }
+
+  .u-9\/12\@sm {
+    grid-column: span 9;
+  }
+
+  .u-10\/12\@sm {
+    grid-column: span 10;
+  }
+
+  .u-11\/12\@sm {
+    grid-column: span 11;
+  }
+
+  .u-12\/12\@sm {
+    grid-column: span 12;
+  }
+}
+
+@media (min-width: 40rem) {
+  .u-1\/12\@md {
+    grid-column: span 1;
+  }
+
+  .u-2\/12\@md {
+    grid-column: span 2;
+  }
+
+  .u-3\/12\@md {
+    grid-column: span 3;
+  }
+
+  .u-4\/12\@md {
+    grid-column: span 4;
+  }
+
+  .u-5\/12\@md {
+    grid-column: span 5;
+  }
+
+  .u-6\/12\@md {
+    grid-column: span 6;
+  }
+
+  .u-7\/12\@md {
+    grid-column: span 7;
+  }
+
+  .u-8\/12\@md {
+    grid-column: span 8;
+  }
+
+  .u-9\/12\@md {
+    grid-column: span 9;
+  }
+
+  .u-10\/12\@md {
+    grid-column: span 10;
+  }
+
+  .u-11\/12\@md {
+    grid-column: span 11;
+  }
+
+  .u-12\/12\@md {
+    grid-column: span 12;
+  }
+}
+
+@media (min-width: 60rem) {
+  .u-1\/12\@lg {
+    grid-column: span 1;
+  }
+
+  .u-2\/12\@lg {
+    grid-column: span 2;
+  }
+
+  .u-3\/12\@lg {
+    grid-column: span 3;
+  }
+
+  .u-4\/12\@lg {
+    grid-column: span 4;
+  }
+
+  .u-5\/12\@lg {
+    grid-column: span 5;
+  }
+
+  .u-6\/12\@lg {
+    grid-column: span 6;
+  }
+
+  .u-7\/12\@lg {
+    grid-column: span 7;
+  }
+
+  .u-8\/12\@lg {
+    grid-column: span 8;
+  }
+
+  .u-9\/12\@lg {
+    grid-column: span 9;
+  }
+
+  .u-10\/12\@lg {
+    grid-column: span 10;
+  }
+
+  .u-11\/12\@lg {
+    grid-column: span 11;
+  }
+
+  .u-12\/12\@lg {
+    grid-column: span 12;
+  }
+}
+
 @media (min-width: 75rem) {
   .u-1\/12\@xl {
     grid-column: span 1;

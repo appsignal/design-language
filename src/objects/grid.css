@@ -1,9 +1,10 @@
+.o-grid-3-2-1 {
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 .o-grid {
   display: grid;
-  grid-column-gap: var(--spacing-grid-gutter);
-  grid-row-gap: 1rem;
-
-  @media (min-width: 75rem) {
-    grid-template-columns: repeat(12, 1fr);
-  }
+  grid-gap: var(--spacing-grid-gutter);
+  grid-template-columns: repeat(12, 1fr);
 }
