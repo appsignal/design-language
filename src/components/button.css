@@ -4,7 +4,7 @@
   border-radius: var(--border-radius);
   outline: none;
   background-color: var(--color-white);
-  color: var(--color-darkest);
+  color: var(--color-grey-darkest);
   font-weight: 500;
   line-height: calc(1em - 1px);
   text-align: center;
@@ -58,12 +58,12 @@
   &--secondary {
     border-color: var(--color-border-dark);
     background-color: var(--color-white);
-    color: var(--color-dark);
+    color: var(--color-grey-dark);
   }
 
   &--secondary:hover {
     background-color: var(--color-grey-light);
-    color: var(--color-darkest);
+    color: var(--color-grey-darkest);
   }
 
   &:not(.is-disabled) {
