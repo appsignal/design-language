@@ -5,94 +5,89 @@
   },
   "props": [
     {
-      "name": "COLOR_BRAND_WHITE",
+      "name": "COLOR_WHITE",
       "value": "#FFFFFF",
-      "comment": "Brand color white"
+      "comment": "color white"
     },
     {
-      "name": "COLOR_BRAND_GREY_LIGHT",
+      "name": "COLOR_GREY_LIGHT",
       "value": "#F5F6F9",
-      "comment": "Brand color grey light"
+      "comment": "color grey light"
     },
     {
-      "name": "COLOR_BRAND_GREY",
+      "name": "COLOR_GREY",
       "value": "#C9CFDD",
-      "comment": "Brand color grey"
+      "comment": "color grey"
     },
     {
-      "name": "COLOR_BRAND_DARK",
+      "name": "COLOR_GREY_DARK",
       "value": "#6B7B96",
-      "comment": "Brand color dark"
+      "comment": "color dark"
     },
     {
-      "name": "COLOR_BRAND_DARKEST",
+      "name": "COLOR_GREY_DARKEST",
       "value": "#011940",
-      "comment": "Brand color darkest"
+      "comment": "color darkest"
     },
     {
-      "name": "COLOR_BRAND_GREEN_LIGHT",
+      "name": "COLOR_GREEN_LIGHT",
       "value": "#CEF1E4",
-      "comment": "Brand color green light"
+      "comment": "color green light"
     },
     {
-      "name": "COLOR_BRAND_GREEN_MEDIUM",
+      "name": "COLOR_GREEN_MEDIUM",
       "value": "#9DE3C8",
-      "comment": "Brand color green medium"
+      "comment": "color green medium"
     },
     {
-      "name": "COLOR_BRAND_GREEN",
+      "name": "COLOR_GREEN",
       "value": "#09BA76",
-      "comment": "Brand color green"
+      "comment": "color green"
     },
     {
-      "name": "COLOR_BRAND_GREEN_DARK",
+      "name": "COLOR_GREEN_DARK",
       "value": "#069961",
-      "comment": "Brand color green_dark"
+      "comment": "color green_dark"
     },
     {
-      "name": "COLOR_THEME_GREEN",
-      "value": "#09BA76",
-      "comment": "Theme color Green"
-    },
-    {
-      "name": "COLOR_THEME_PINK",
+      "name": "COLOR_PINK",
       "value": "#FF6A9C",
-      "comment": "Theme color Pink"
+      "comment": "color Pink"
     },
     {
-      "name": "COLOR_THEME_RED",
+      "name": "COLOR_RED",
       "value": "#D20325",
-      "comment": "Theme color Red"
+      "comment": "color Red"
     },
     {
-      "name": "COLOR_THEME_ORANGE",
+      "name": "COLOR_ORANGE",
       "value": "#F35320",
-      "comment": "Theme color Orange"
+      "comment": "color Orange"
     },
     {
-      "name": "COLOR_THEME_PURPLE",
+      "name": "COLOR_PURPLE",
       "value": "#7826A2",
-      "comment": "Theme color purple"
+      "comment": "color purple"
     },
     {
-      "name": "COLOR_THEME_BLUE",
+      "name": "COLOR_BLUE",
       "value": "#2166CD",
-      "comment": "Theme color Blue"
+      "comment": "color Blue"
     },
     {
-      "name": "COLOR_THEME_CYAN",
+      "name": "COLOR_CYAN",
       "value": "#029B9B",
-      "comment": "Theme color Cyan"
+      "comment": "color Cyan"
     },
     {
-      "name": "COLOR_THEME_BROWN",
+      "name": "COLOR_BROWN",
       "value": "#8E523D",
-      "comment": "Theme color brown"
+      "comment": "color brown"
     },
     {
-      "name": "COLOR_THEME_YELLOW",
+      "name": "COLOR_YELLOW",
       "value": "#F8A221",
-      "comment": "Theme color Yellow"
+      "comment": "color Yellow"
     }
   ]
 }

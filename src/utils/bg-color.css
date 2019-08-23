@@ -1,5 +1,73 @@
 .u-bg {
+  &--white {
+    background: var(--color-white);
+  }
+
+  &--grey-light {
+    background: var(--color-grey-light);
+  }
+
+  &--grey {
+    background: var(--color-grey);
+  }
+
+  &--grey-dark {
+    background: var(--color-grey-dark);
+  }
+
+  &--grey-darkest {
+    background: var(--color-grey-darkest);
+  }
+
+  &--green-light {
+    background: var(--color-green-light);
+  }
+
+  &--green-medium {
+    background: var(--color-green-medium);
+  }
+
+  &--green {
+    background: var(--color-green);
+  }
+
+  &--green-dark {
+    background: var(--color-green-dark);
+  }
+
+  &--pink {
+    background: var(--color-pink);
+  }
+
+  &--red {
+    background: var(--color-red);
+  }
+
+  &--orange {
+    background: var(--color-orange);
+  }
+
+  &--purple {
+    background: var(--color-purple);
+  }
+
+  &--blue {
+    background: var(--color-blue);
+  }
+
+  &--cyan {
+    background: var(--color-cyan);
+  }
+
+  &--brown {
+    background: var(--color-brown);
+  }
+
+  &--yellow {
+    background: var(--color-yellow);
+  }
+
   &--primary {
-    background: var(--color-brand-green);
+    background: var(--color-green);
   }
 }
