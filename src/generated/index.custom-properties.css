@@ -1,46 +1,62 @@
-
 :root {
   --border-radius-small: 4px;
   --border-radius: 8px;
   --border-radius-large: 12px;
   --border-radius-circle: 50%;
-  --color-border-separator: #C9CFDD;
-  --color-border-dark: #C9CFDD;
-  --color-border: #F5F6F9;
+  --color-border-separator: #c9cfdd;
+  --color-border-dark: #c9cfdd;
+  --color-border: #f5f6f9;
+
   /* color white */
-  --color-white: #FFFFFF;
+  --color-white: #fff;
+
   /* color grey light */
-  --color-grey-light: #F5F6F9;
+  --color-grey-light: #f5f6f9;
+
   /* color grey */
-  --color-grey: #C9CFDD;
+  --color-grey: #c9cfdd;
+
   /* color dark */
-  --color-grey-dark: #6B7B96;
+  --color-grey-dark: #6b7b96;
+
   /* color darkest */
   --color-grey-darkest: #011940;
+
   /* color green light */
-  --color-green-light: #CEF1E4;
+  --color-green-light: #cef1e4;
+
   /* color green medium */
-  --color-green-medium: #9DE3C8;
+  --color-green-medium: #9de3c8;
+
   /* color green */
-  --color-green: #09BA76;
+  --color-green: #09ba76;
+
   /* color green_dark */
   --color-green-dark: #069961;
+
   /* color Pink */
-  --color-pink: #FF6A9C;
+  --color-pink: #ff6a9c;
+
   /* color Red */
-  --color-red: #D20325;
+  --color-red: #d20325;
+
   /* color Orange */
-  --color-orange: #F35320;
+  --color-orange: #f35320;
+
   /* color purple */
-  --color-purple: #7826A2;
+  --color-purple: #7826a2;
+
   /* color Blue */
-  --color-blue: #2166CD;
+  --color-blue: #2166cd;
+
   /* color Cyan */
-  --color-cyan: #029B9B;
+  --color-cyan: #029b9b;
+
   /* color brown */
-  --color-brown: #8E523D;
+  --color-brown: #8e523d;
+
   /* color Yellow */
-  --color-yellow: #F8A221;
+  --color-yellow: #f8a221;
   --font-size-tiny: 0.64rem;
   --font-size-small: 0.8rem;
   --font-size-root: 16px;
@@ -52,28 +68,40 @@
   --font-size-xxx-large: 3.052rem;
   --default: Museo Sans Rounded;
   --monospaced: Alma Mono;
+
   /* Grid gutter size */
   --spacing-grid-gutter: 1.5rem;
+
   /* Grid outside margin */
   --spacing-grid-margin: 2.25rem;
+
   /* Grid column size */
   --spacing-grid-column: 45rem;
+
   /* For micro adjustments */
   --spacing-xx-small: 0.444rem;
+
   /* For micro adjustments */
   --spacing-x-small: 0.667rem;
+
   /* For paddings in labels / inline stuff */
   --spacing-small: 1rem;
+
   /* Regular padding for compact tables and such. */
   --spacing-normal: 1.5rem;
+
   /* For paddings in labels / inline stuff */
   --spacing-medium: 2.25rem;
+
   /* Padding for the inside of boxes */
   --spacing-large: 3.375rem;
+
   /* Padding between elements and for boxes with larger font-sizes */
   --spacing-x-large: 5.0625rem;
+
   /* Larger padding for when bigger spacing is needed */
   --spacing-xx-large: 7.6rem;
+
   /* Huge padding we can use for seperation of vertical sections */
   --spacing-xxx-large: 11.4rem;
 }
