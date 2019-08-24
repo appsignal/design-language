@@ -71,6 +71,7 @@
 @import "./utils/grid";
 @import "./utils/layout";
 @import "./utils/text-color";
+@import "./utils/text-inline";
 @import "./utils/visibility";
 
 /*

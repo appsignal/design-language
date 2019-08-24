@@ -20,3 +20,31 @@ ul {
 a {
   color: var(--color-grey-darkest);
 }
+
+b, strong {
+  @extend .u-text--strong;
+}
+
+i, em {
+  @extend .u-text--em;
+}
+
+mark {
+  @extend .u-text--mark;
+}
+
+u {
+  @extend .u-text--u;
+}
+
+small {
+  @extend .u-text--small;
+}
+
+sup {
+  @extend .u-text--sup;
+}
+
+sub {
+  @extend .u-text--sub;
+}
