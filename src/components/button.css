@@ -1,5 +1,5 @@
 .c-button {
-  @extend .u-bg--white, .u-text--grey-darkest;
+  @extend .u-bg--white, .u-t--grey-darkest;
 
   display: inline-block;
   border: 1px solid var(--color-border-dark);
@@ -33,7 +33,7 @@
   }
 
   &--primary {
-    @extend .u-bg--green, .u-text--white;
+    @extend .u-bg--green, .u-t--white;
 
     border-color: var(--color-green);
   }
@@ -45,7 +45,7 @@
   }
 
   &--subtle {
-    @extend .u-bg--green-light, .u-text--green;
+    @extend .u-bg--green-light, .u-t--green;
 
     border-color: var(--color-green-light);
   }
