@@ -1,6 +1,6 @@
 .c-topbar {
   height: 7.5rem;
-  border-bottom: 1px solid var(--color-grey-grey);
+  border-bottom: 1px solid var(--color-grey);
 
   &__logo {
     margin-right: var(--spacing-large);
