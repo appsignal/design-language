@@ -1,0 +1,9 @@
+.u-t {
+  &--italic {
+    font-style: italic;
+  }
+
+  &--non-italic {
+    font-style: normal;
+  }
+}
