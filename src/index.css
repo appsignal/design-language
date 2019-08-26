@@ -70,7 +70,13 @@
 @import "./utils/bg-color";
 @import "./utils/grid";
 @import "./utils/layout";
-@import "./utils/text-color";
+@import "./utils/text/color";
+@import "./utils/text/decoration";
+@import "./utils/text/misc";
+@import "./utils/text/size";
+@import "./utils/text/style";
+@import "./utils/text/transform";
+@import "./utils/text/weight";
 @import "./utils/visibility";
 
 /*
