@@ -14,6 +14,7 @@
   margin: var(--spacing-small);
 }
 
+.u-m,
 .u-m--base {
   margin: var(--spacing-normal);
 }
@@ -78,11 +79,13 @@
   margin-left: var(--spacing-small);
 }
 
+.u-my,
 .u-my--base {
   margin-top: var(--spacing-normal);
   margin-bottom: var(--spacing-normal);
 }
 
+.u-mx,
 .u-mx--base {
   margin-right: var(--spacing-normal);
   margin-left: var(--spacing-normal);
@@ -202,18 +205,22 @@
   margin-left: var(--spacing-small);
 }
 
+.u-mt,
 .u-mt--base {
   margin-top: var(--spacing-normal);
 }
 
+.u-mr,
 .u-mr--base {
   margin-right: var(--spacing-normal);
 }
 
+.u-mb,
 .u-mb--base {
   margin-bottom: var(--spacing-normal);
 }
 
+.u-ml,
 .u-ml--base {
   margin-left: var(--spacing-normal);
 }
