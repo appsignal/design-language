@@ -55,6 +55,7 @@
  *
  */
 
+@import "./components/box";
 @import "./components/button";
 @import "./components/topbar";
 @import "./components/navigation";
@@ -71,6 +72,7 @@
 @import "./utils/flexbox";
 @import "./utils/grid";
 @import "./utils/layout";
+@import "./utils/text/align";
 @import "./utils/text/color";
 @import "./utils/text/decoration";
 @import "./utils/text/misc";
@@ -78,6 +80,8 @@
 @import "./utils/text/style";
 @import "./utils/text/transform";
 @import "./utils/text/weight";
+@import "./utils/shadow";
+@import "./utils/spacing/margin";
 @import "./utils/visibility";
 
 /*
