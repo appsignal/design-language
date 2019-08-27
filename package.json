@@ -35,12 +35,12 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "*.{js,json,md}": [
       "prettier --write",
       "git add"
     ],
     "*.css": [
-      "stylelint --config stylelint.config.js --fix",
+      "stylelint --config stylelint.config.js",
       "git add"
     ]
   },
