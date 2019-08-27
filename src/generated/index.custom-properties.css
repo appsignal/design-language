@@ -104,4 +104,16 @@
 
   /* Huge padding we can use for seperation of vertical sections */
   --spacing-xxx-large: 11.4rem;
+
+  /* Small breakpoint */
+  --break-small: 25rem;
+
+  /* Small breakpoint */
+  --break-medium: 40rem;
+
+  /* Small breakpoint */
+  --break-large: 60rem;
+
+  /* Small breakpoint */
+  --break-extra-large: 75rem;
 }

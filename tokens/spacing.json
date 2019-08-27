@@ -63,6 +63,26 @@
       "name": "SPACING_XXX_LARGE",
       "value": "11.4rem",
       "comment": "Huge padding we can use for seperation of vertical sections"
+    },
+    {
+      "name": "BREAK_SMALL",
+      "value": "25rem",
+      "comment": "Small breakpoint"
+    },
+    {
+      "name": "BREAK_MEDIUM",
+      "value": "40rem",
+      "comment": "Small breakpoint"
+    },
+    {
+      "name": "BREAK_LARGE",
+      "value": "60rem",
+      "comment": "Small breakpoint"
+    },
+    {
+      "name": "BREAK_EXTRA_LARGE",
+      "value": "75rem",
+      "comment": "Small breakpoint"
     }
   ]
 }
