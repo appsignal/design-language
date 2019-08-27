@@ -1,0 +1,19 @@
+.u-align-items-start {
+  align-items: start;
+}
+
+.u-align-items-end {
+  align-items: end;
+}
+
+.u-align-items-center {
+  align-items: center;
+}
+
+.u-align-items-baseline {
+  align-items: baseline;
+}
+
+.u-align-items-stretch {
+  align-items: stretch;
+}
