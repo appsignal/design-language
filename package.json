@@ -27,7 +27,8 @@
     "build:tokens": "theo tokens/index.json --format custom-properties.css --dest src/generated",
     "lint": "stylelint 'src/**/*.css'",
     "lint:fix": "stylelint 'src/**/*.css' --fix",
-    "styleguide": "theo tokens/index.json --format html --dest generated && serve -l 8089 generated/"
+    "styleguide": "theo tokens/index.json --format html --dest generated && serve -l 8089 generated/",
+    "start": "yarn build:watch"
   },
   "husky": {
     "hooks": {
