@@ -3,7 +3,7 @@ module.exports = {
     "at-rule-no-unknown": [
       true,
       {
-        ignoreAtRules: ["extend"]
+        ignoreAtRules: ["extend", "responsive"]
       }
     ],
     "color-hex-case": "upper",
