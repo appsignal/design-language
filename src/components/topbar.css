@@ -3,10 +3,10 @@
   border-bottom: 1px solid var(--color-grey);
 
   &__logo {
-    margin-right: var(--spacing-large);
+    @extend .u-mr-lg;
   }
 
   &__login {
-    margin-left: auto;
+    @extend .u-ml-auto;
   }
 }

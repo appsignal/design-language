@@ -1,81 +1,75 @@
-.u-align-content {
-  &--start {
-    align-content: start;
-  }
-
-  &--end {
-    align-content: end;
-  }
-
-  &--center {
-    align-content: center;
-  }
-
-  &--stretch {
-    align-content: stretch;
-  }
-
-  &--space-around {
-    align-content: space-around;
-  }
-
-  &--space-between {
-    align-content: space-between;
-  }
-
-  &--space-evenly {
-    align-content: space-evenly;
-  }
+.u-align-content-start {
+  align-content: start;
 }
 
-.u-justify-content {
-  &--start {
-    justify-content: start;
-  }
-
-  &--end {
-    justify-content: end;
-  }
-
-  &--center {
-    justify-content: center;
-  }
-
-  &--stretch {
-    justify-content: stretch;
-  }
-
-  &--space-around {
-    justify-content: space-around;
-  }
-
-  &--space-between {
-    justify-content: space-between;
-  }
-
-  &--space-evenly {
-    align-content: space-evenly;
-  }
+.u-align-content-end {
+  align-content: end;
 }
 
-.u-align-items {
-  &--start {
-    align-items: start;
-  }
+.u-align-content-center {
+  align-content: center;
+}
 
-  &--end {
-    align-items: end;
-  }
+.u-align-content-stretch {
+  align-content: stretch;
+}
 
-  &--center {
-    align-items: center;
-  }
+.u-align-content-space-around {
+  align-content: space-around;
+}
 
-  &--baseline {
-    align-items: baseline;
-  }
+.u-align-content-space-between {
+  align-content: space-between;
+}
 
-  &--stretch {
-    align-items: stretch;
-  }
+.u-align-content-space-evenly {
+  align-content: space-evenly;
+}
+
+.u-justify-content-start {
+  justify-content: start;
+}
+
+.u-justify-content-end {
+  justify-content: end;
+}
+
+.u-justify-content-center {
+  justify-content: center;
+}
+
+.u-justify-content-stretch {
+  justify-content: stretch;
+}
+
+.u-justify-content-space-around {
+  justify-content: space-around;
+}
+
+.u-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.u-justify-content-space-evenly {
+  align-content: space-evenly;
+}
+
+.u-align-items-start {
+  align-items: start;
+}
+
+.u-align-items-end {
+  align-items: end;
+}
+
+.u-align-items-center {
+  align-items: center;
+}
+
+.u-align-items-baseline {
+  align-items: baseline;
+}
+
+.u-align-items-stretch {
+  align-items: stretch;
 }

@@ -1,9 +1,7 @@
-.u-t {
-  &--line-through {
-    text-decoration: line-through;
-  }
+.u-t-line-through {
+  text-decoration: line-through;
+}
 
-  &--underline {
-    text-decoration: underline;
-  }
+.u-t-underline {
+  text-decoration: underline;
 }

@@ -1,5 +1,5 @@
 .c-button {
-  @extend .u-bg--white, .u-t--grey-darkest;
+  @extend .u-bg-white, .u-t-grey-darkest;
 
   display: inline-block;
   border: 1px solid var(--color-border-dark);
@@ -33,25 +33,25 @@
   }
 
   &--primary {
-    @extend .u-bg--green, .u-t--white;
+    @extend .u-bg-green, .u-t-white;
 
     border-color: var(--color-green);
   }
 
   &--primary:hover {
-    @extend .u-bg--green-dark;
+    @extend .u-bg-green-dark;
 
     border-color: var(--color-green-dark);
   }
 
   &--subtle {
-    @extend .u-bg--green-light, .u-t--green;
+    @extend .u-bg-green-light, .u-t-green;
 
     border-color: var(--color-green-light);
   }
 
   &--subtle:hover {
-    @extend .u-bg--green-medium, .u-text-green-dark;
+    @extend .u-bg-green-medium, .u-text-green-dark;
 
     border-color: var(--color-green-medium);
   }
@@ -63,7 +63,7 @@
   }
 
   &--secondary:hover {
-    @extend .u-bg--grey-light, .u-text-grey-darkest;
+    @extend .u-bg-grey-light, .u-text-grey-darkest;
   }
 
   &:not(.is-disabled) {

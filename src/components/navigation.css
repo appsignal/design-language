@@ -8,12 +8,13 @@
   }
 
   &__link {
+    @extend .u-t-grey-dark;
+
     display: block;
-    color: var(--color-grey-dark);
     text-decoration: none;
   }
 
   &__link:hover {
-    color: var(--color-grey-darkest);
+    @extend .u-t-grey-darkest;
   }
 }

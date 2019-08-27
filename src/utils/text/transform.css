@@ -1,13 +1,11 @@
-.u-t {
-  &--lowercase {
-    text-transform: lowercase;
-  }
+.u-t-lowercase {
+  text-transform: lowercase;
+}
 
-  &--uppercase {
-    text-transform: uppercase;
-  }
+.u-t-uppercase {
+  text-transform: uppercase;
+}
 
-  &--capitalize {
-    text-transform: capitalize;
-  }
+.u-t-capitalize {
+  text-transform: capitalize;
 }
