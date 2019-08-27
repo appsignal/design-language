@@ -1,49 +1,49 @@
 @responsive {
-  .u-grid-1\/12 {
+  .u-grid-1 {
     grid-column: span 1;
   }
 
-  .u-grid-2\/12 {
+  .u-grid-2 {
     grid-column: span 2;
   }
 
-  .u-grid-3\/12 {
+  .u-grid-3 {
     grid-column: span 3;
   }
 
-  .u-grid-4\/12 {
+  .u-grid-4 {
     grid-column: span 4;
   }
 
-  .u-grid-5\/12 {
+  .u-grid-5 {
     grid-column: span 5;
   }
 
-  .u-grid-6\/12 {
+  .u-grid-6 {
     grid-column: span 6;
   }
 
-  .u-grid-7\/12 {
+  .u-grid-7 {
     grid-column: span 7;
   }
 
-  .u-grid-8\/12 {
+  .u-grid-8 {
     grid-column: span 8;
   }
 
-  .u-grid-9\/12 {
+  .u-grid-9 {
     grid-column: span 9;
   }
 
-  .u-grid-10\/12 {
+  .u-grid-10 {
     grid-column: span 10;
   }
 
-  .u-grid-11\/12 {
+  .u-grid-11 {
     grid-column: span 11;
   }
 
-  .u-grid-12\/12 {
+  .u-grid-12 {
     grid-column: span 12;
   }
 }
