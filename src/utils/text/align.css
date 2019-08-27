@@ -1,17 +1,15 @@
-.u-t {
-  &--left {
-    text-align: left;
-  }
+.u-t-left {
+  text-align: left;
+}
 
-  &--center {
-    text-align: center;
-  }
+.u-t-center {
+  text-align: center;
+}
 
-  &--right {
-    text-align: right;
-  }
+.u-t-right {
+  text-align: right;
+}
 
-  &--justify {
-    text-align: justify;
-  }
+.u-t-justify {
+  text-align: justify;
 }

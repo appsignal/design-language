@@ -1,73 +1,71 @@
-.u-bg {
-  &--white {
-    background: var(--color-white);
-  }
+.u-bg-white {
+  background: var(--color-white);
+}
 
-  &--grey-light {
-    background: var(--color-grey-light);
-  }
+.u-bg-grey-light {
+  background: var(--color-grey-light);
+}
 
-  &--grey {
-    background: var(--color-grey);
-  }
+.u-bg-grey {
+  background: var(--color-grey);
+}
 
-  &--grey-dark {
-    background: var(--color-grey-dark);
-  }
+.u-bg-grey-dark {
+  background: var(--color-grey-dark);
+}
 
-  &--grey-darkest {
-    background: var(--color-grey-darkest);
-  }
+.u-bg-grey-darkest {
+  background: var(--color-grey-darkest);
+}
 
-  &--green-light {
-    background: var(--color-green-light);
-  }
+.u-bg-green-light {
+  background: var(--color-green-light);
+}
 
-  &--green-medium {
-    background: var(--color-green-medium);
-  }
+.u-bg-green-medium {
+  background: var(--color-green-medium);
+}
 
-  &--green {
-    background: var(--color-green);
-  }
+.u-bg-green {
+  background: var(--color-green);
+}
 
-  &--green-dark {
-    background: var(--color-green-dark);
-  }
+.u-bg-green-dark {
+  background: var(--color-green-dark);
+}
 
-  &--pink {
-    background: var(--color-pink);
-  }
+.u-bg-pink {
+  background: var(--color-pink);
+}
 
-  &--red {
-    background: var(--color-red);
-  }
+.u-bg-red {
+  background: var(--color-red);
+}
 
-  &--orange {
-    background: var(--color-orange);
-  }
+.u-bg-orange {
+  background: var(--color-orange);
+}
 
-  &--purple {
-    background: var(--color-purple);
-  }
+.u-bg-purple {
+  background: var(--color-purple);
+}
 
-  &--blue {
-    background: var(--color-blue);
-  }
+.u-bg-blue {
+  background: var(--color-blue);
+}
 
-  &--cyan {
-    background: var(--color-cyan);
-  }
+.u-bg-cyan {
+  background: var(--color-cyan);
+}
 
-  &--brown {
-    background: var(--color-brown);
-  }
+.u-bg-brown {
+  background: var(--color-brown);
+}
 
-  &--yellow {
-    background: var(--color-yellow);
-  }
+.u-bg-yellow {
+  background: var(--color-yellow);
+}
 
-  &--primary {
-    background: var(--color-green);
-  }
+.u-bg-primary {
+  background: var(--color-green);
 }
