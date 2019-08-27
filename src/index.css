@@ -69,9 +69,11 @@
  */
 
 @import "./utils/bg-color";
-@import "./utils/flexbox";
+@import "./utils/flexbox/align-content";
+@import "./utils/flexbox/align-items";
+@import "./utils/flexbox/flex";
+@import "./utils/flexbox/justify-content";
 @import "./utils/grid";
-@import "./utils/layout";
 @import "./utils/text/align";
 @import "./utils/text/color";
 @import "./utils/text/decoration";
