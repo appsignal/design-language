@@ -32,7 +32,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn build && lint-staged"
     }
   },
   "lint-staged": {
@@ -40,7 +40,7 @@
       "prettier --write",
       "git add"
     ],
-    "*.css": [
+    "!(dist/**/*).css": [
       "stylelint --config stylelint.config.js",
       "git add"
     ]
