@@ -18,17 +18,20 @@
   }
 
   &--lg {
-    padding: 0.75rem 1.5rem;
+    @extend .u-py-3, .u-px-6;
+
     font-size: var(--font-size-large);
   }
 
   &--md {
-    padding: 0.5rem 1.5rem;
+    @extend .u-py-2, .u-px-6;
+
     font-size: var(--font-size-medium);
   }
 
   &--sm {
-    padding: 0.5rem 1.25rem;
+    @extend .u-py-2, .u-px-5;
+
     font-size: var(--font-size-normal);
   }
 
