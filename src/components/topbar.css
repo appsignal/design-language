@@ -3,7 +3,7 @@
   border-bottom: 1px solid var(--color-grey);
 
   &__logo {
-    @extend .u-mr-lg;
+    @extend .u-mr-9;
   }
 
   &__login {

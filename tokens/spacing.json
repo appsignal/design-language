@@ -20,49 +20,56 @@
       "comment": "Grid column size"
     },
     {
-      "name": "SPACING_XX_SMALL",
-      "value": "0.444rem",
-      "comment": "For micro adjustments"
+      "name": "SPACING_1",
+      "value": "0.25rem"
     },
     {
-      "name": "SPACING_X_SMALL",
-      "value": "0.667rem",
-      "comment": "For micro adjustments"
+      "name": "SPACING_2",
+      "value": "0.5rem"
     },
     {
-      "name": "SPACING_SMALL",
-      "value": "1rem",
-      "comment": "For paddings in labels / inline stuff"
+      "name": "SPACING_3",
+      "value": "0.75rem"
     },
     {
-      "name": "SPACING_NORMAL",
-      "value": "1.5rem",
-      "comment": "Regular padding for compact tables and such."
+      "name": "SPACING_4",
+      "value": "1rem"
     },
     {
-      "name": "SPACING_MEDIUM",
-      "value": "2.25rem",
-      "comment": "For paddings in labels / inline stuff"
+      "name": "SPACING_5",
+      "value": "1.25rem"
     },
     {
-      "name": "SPACING_LARGE",
-      "value": "3.375rem",
-      "comment": "Padding for the inside of boxes"
+      "name": "SPACING_6",
+      "value": "1.5rem"
     },
     {
-      "name": "SPACING_X_LARGE",
-      "value": "5.0625rem",
-      "comment": "Padding between elements and for boxes with larger font-sizes"
+      "name": "SPACING_7",
+      "value": "2rem"
     },
     {
-      "name": "SPACING_XX_LARGE",
-      "value": "7.6rem",
-      "comment": "Larger padding for when bigger spacing is needed"
+      "name": "SPACING_8",
+      "value": "2.25rem"
     },
     {
-      "name": "SPACING_XXX_LARGE",
-      "value": "11.4rem",
-      "comment": "Huge padding we can use for seperation of vertical sections"
+      "name": "SPACING_9",
+      "value": "3rem"
+    },
+    {
+      "name": "SPACING_10",
+      "value": "4rem"
+    },
+    {
+      "name": "SPACING_11",
+      "value": "5rem"
+    },
+    {
+      "name": "SPACING_12",
+      "value": "8rem"
+    },
+    {
+      "name": "SPACING_13",
+      "value": "12rem"
     },
     {
       "name": "BREAK_SMALL",
