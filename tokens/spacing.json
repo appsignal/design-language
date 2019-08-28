@@ -20,48 +20,68 @@
       "comment": "Grid column size"
     },
     {
-      "name": "SPACING_XX_SMALL",
-      "value": "0.444rem",
+      "name": "SPACING_1",
+      "value": "0.25rem",
       "comment": "For micro adjustments"
     },
     {
-      "name": "SPACING_X_SMALL",
-      "value": "0.667rem",
+      "name": "SPACING_2",
+      "value": "0.5rem",
       "comment": "For micro adjustments"
     },
     {
-      "name": "SPACING_SMALL",
+      "name": "SPACING_3",
+      "value": "0.75rem",
+      "comment": "For paddings in labels / inline stuff"
+    },
+    {
+      "name": "SPACING_4",
       "value": "1rem",
       "comment": "For paddings in labels / inline stuff"
     },
     {
-      "name": "SPACING_NORMAL",
+      "name": "SPACING_5",
+      "value": "1.25rem",
+      "comment": "For paddings in labels / inline stuff"
+    },
+    {
+      "name": "SPACING_6",
       "value": "1.5rem",
       "comment": "Regular padding for compact tables and such."
     },
     {
-      "name": "SPACING_MEDIUM",
+      "name": "SPACING_8",
+      "value": "2rem",
+      "comment": "Regular padding for compact tables and such."
+    },
+    {
+      "name": "SPACING_9",
       "value": "2.25rem",
       "comment": "For paddings in labels / inline stuff"
     },
     {
-      "name": "SPACING_LARGE",
-      "value": "3.375rem",
+      "name": "SPACING_12",
+      "value": "3rem",
       "comment": "Padding for the inside of boxes"
     },
     {
-      "name": "SPACING_X_LARGE",
-      "value": "5.0625rem",
+      "name": "SPACING_16",
+      "value": "4rem",
+      "comment": "Padding for the inside of boxes"
+    },
+    {
+      "name": "SPACING_20",
+      "value": "5rem",
       "comment": "Padding between elements and for boxes with larger font-sizes"
     },
     {
-      "name": "SPACING_XX_LARGE",
-      "value": "7.6rem",
+      "name": "SPACING_32",
+      "value": "8rem",
       "comment": "Larger padding for when bigger spacing is needed"
     },
     {
-      "name": "SPACING_XXX_LARGE",
-      "value": "11.4rem",
+      "name": "SPACING_48",
+      "value": "12rem",
       "comment": "Huge padding we can use for seperation of vertical sections"
     },
     {
