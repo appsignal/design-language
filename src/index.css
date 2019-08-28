@@ -84,6 +84,7 @@
 @import "./utils/text/weight";
 @import "./utils/shadow";
 @import "./utils/spacing/margin";
+@import "./utils/spacing/padding";
 @import "./utils/visibility";
 
 /*
