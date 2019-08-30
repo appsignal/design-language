@@ -34,6 +34,11 @@ $cyan: #029B9B;
 // Color list
 
 $colors: (
+  ("white", #fff),
+  ("darkest", $darkest),
+  ("dark", $dark),
+  ("medium", $medium),
+  ("light", $light),
   ("blue", $blue),
   ("purple", $purple),
   ("green", $green),
