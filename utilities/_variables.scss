@@ -9,8 +9,8 @@ $blue-dark: $dark;
 $dark-blue: $darkest;
 $gray: mix($light,$medium);
 
-$font-family: "MuseoSansRounded";
-$pre-font: Monaco, "Courier New", Courier, monospace;
+$font-family: "MuseoSansRounded", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$pre-font: "AlmaMono-Bold", "Courier New", Courier, monospace;
 $font-weights: (light: 200, normal: 400, bold: 600);
 $font-size: 16px;
 $font-size-small: 13px;
@@ -99,6 +99,12 @@ $navigation: (
   ),
   (
     class: "anomalies",
+    icon: "fa-user",
+    color: $blue,
+    background: linear-gradient(125deg,$blue,darken($blue,10))
+  ),
+  (
+    class: "dashboards",
     icon: "fa-user",
     color: $blue,
     background: linear-gradient(125deg,$blue,darken($blue,10))
