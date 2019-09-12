@@ -41,46 +41,78 @@ small
 
 %t-large
   font-size: 18px
-  line-height: 1.75
+  line-height: 1.6
+
+  +max-width(1200px)
+    font-size: 16px
 
 %t-normal
   font-size: 16px
-  line-height: 1.75
+  line-height: 1.6
+
+  +max-width(1200px)
+    font-size: 15px
+
 
 %t-small
   font-size: 14px
-  line-height: 1.75
+  line-height: 1.6
+
+  +max-width(1200px)
+    font-size: 13px
 
 %h-huge
   font-size: 50px
   line-height: 1.1
   font-weight: bold
   +max-width(1200px)
-    font-size: 50px
+    font-size: 40px
+  +max-width(800px)
+    font-size: 30px
 
 %h-large
   font-size: 40px
   line-height: 1.25
   font-weight: bold
-  +max-width(800px)
+
+  +max-width(1200px)
     font-size: 30px
+
+  +max-width(800px)
+    font-size: 24px
 
 %h-medium
   font-size: 30px
   line-height: 1.25
   font-weight: bold
+
+  +max-width(1200px)
+    font-size: 24px
+
   +max-width(800px)
-    font-size: 25px
+    font-size: 20px
 
 %h-normal
   line-height: 1.25
   font-weight: bold
-  font-size: 18px
+  font-size: 22px
+
+  +max-width(1200px)
+    font-size: 20px
+
+  +max-width(800px)
+    font-size: 18px
 
 %h-small
   line-height: 1.25
   font-size: 16px
   +font-weight(bold)
+
+  +max-width(1200px)
+    font-size: 15px
+
+  +max-width(800px)
+    font-size: 13px
 
 %h-tiny
   +font-weight(bold)
