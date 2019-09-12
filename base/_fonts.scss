@@ -75,16 +75,3 @@
     url('#{$fonts-path}39F5F8_3_0-ttf.ttf') format('truetype');
   font-display: swap;
 }
-
-@font-face {
-  font-family: 'AlmaMono-Bold';
-  src: url('#{$fonts-path}alma-mono-bold-eot.eot');
-  src: url('#{$fonts-path}alma-mono-bold-eot.eot?#iefix') format('embedded-opentype'),
-             url('#{$fonts-path}alma-mono-bold-woff2.woff2') format('woff2'),
-       url('#{$fonts-path}alma-mono-bold-woff.woff') format('woff'),
-       url('#{$fonts-path}alma-mono-bold-ttf.ttf') format('truetype'),
-       url('#{$fonts-path}alma-mono-bold-svg.svg#youworkforthem') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
