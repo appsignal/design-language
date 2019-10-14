@@ -161,18 +161,21 @@ $toggle-width: 900px
       &.show
         display: flex
 
-      li.elixir
-        width: 100%
+      li.lang
+        width: 50%
         padding: 20px
         border-top: 1px solid $border
-        width: 100%
 
         .tag
           margin: 0 10px 0 0
+          
         a
           display: inline-block
           color: $blue
           text-decoration: underline
+
+        &:last-child
+          border-left: 1px solid $border
 
       li.tour
         flex: 1
