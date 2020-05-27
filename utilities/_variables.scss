@@ -64,6 +64,18 @@ $pre-color:  #ecf0f2;
 
 $navigation: (
   (
+    class: "dashboard",
+    icon: "fa-tachometer",
+    color: mix($dark,$purple),
+    background: linear-gradient(125deg,mix($dark,$purple),mix($dark,$purple,80))
+  ),
+  (
+    class: "deploys",
+    icon: "fa-rocket",
+    color: $yellow,
+    dark: darken($yellow,5)
+  ),
+  (
     class: "errors",
     icon: "fa-exclamation-triangle",
     color: $orange,
@@ -71,43 +83,55 @@ $navigation: (
   ),
   (
     class: "performance",
+    icon: "fa-clock",
     color: $green,
     background: linear-gradient(125deg,$green,darken($green,10))
-
   ),
   (
-    class: "hosts",
+    class: "alerting",
+    icon: "fa-bell",
+    color: $blue
+  ),
+  (
+    class: "actions",
+    icon: "fa-bolt",
+    color: $blue,
+    dark: darken($blue,5)
+  ),
+  (
+    class: "events",
+    icon: "fa-tasks",
+    color: $green,
+    dark: darken($green,5)
+  ),
+  (
+    class: "host-usage",
+    icon: "fa-server",
     color: $purple,
-    background: linear-gradient(125deg,$purple,darken($purple,10))
-
+    dark: darken($purple,5)
   ),
   (
-    class: "metrics",
-    icon: "fa-area-chart",
-    color: $red,
-    background: linear-gradient(125deg,$red,darken($red,10))
+    class: "host-metrics",
+    icon: "fa-server",
+    color: $purple,
+    dark: darken($purple,5)
   ),
   (
-    class: "dashboard",
-    color: mix($dark,$purple),
-    background: linear-gradient(125deg,mix($dark,$purple),mix($dark,$purple,80))
+    class: "integrations",
+    icon: "fa-link",
+    color: $medium,
+    dark: darken($medium,5)
   ),
   (
-    class: "workflow",
-    icon: "fa-user",
+    class: "notifications",
+    icon: "fa-bell",
     color: $blue,
-    background: linear-gradient(125deg,$blue,darken($blue,10))
+    dark: darken($blue,5)
   ),
   (
-    class: "anomalies",
-    icon: "fa-user",
-    color: $blue,
-    background: linear-gradient(125deg,$blue,darken($blue,10))
+    class: "general",
+    icon: "fa-cog",
+    color: $medium,
+    dark: darken($medium,5)
   ),
-  (
-    class: "dashboards",
-    icon: "fa-user",
-    color: $blue,
-    background: linear-gradient(125deg,$blue,darken($blue,10))
-  )
 );
