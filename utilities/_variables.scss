@@ -65,129 +65,27 @@ $pre-color:  #ecf0f2;
 $navigation: (
   (
     class: "dashboard",
-    icon: "fa-tachometer-alt",
+    icon: "fa-tachometer",
     color: mix($dark,$purple),
-    background: darken(mix($dark,$purple),5)
-  ),
-  (
-    class: "host-usage",
-    icon: "fa-hdd",
-    color: $purple,
-    background: darken($purple,5)
-  ),
-  (
-    class: "hosts",
-    icon: "fa-hdd",
-    color: $purple,
-    background: darken($purple,5)
-  ),
-  (
-    class: "host-metrics",
-    icon: "fa-microchip",
-    color: $purple,
-    background: darken($purple,5)
-  ),
-  (
-    class: "metrics",
-    icon: "fa-chart-area",
-    color: $red,
-    background: darken($red,5)
-  ),
-  (
-    class: "workflow",
-    icon: "fa-user",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "hosts-detail",
-    icon: "fa-search-plus",
-    color: $purple,
-    background: darken($purple,5)
+    background: linear-gradient(125deg,mix($dark,$purple),mix($dark,$purple,80))
   ),
   (
     class: "deploys",
     icon: "fa-rocket",
     color: $yellow,
-    background: darken($yellow,5)
+    dark: darken($yellow,5)
   ),
   (
     class: "errors",
-    icon: "fa-bug",
+    icon: "fa-exclamation-triangle",
     color: $orange,
-    background: darken($orange,5)
+    background: linear-gradient(125deg,$orange,darken($orange,10))
   ),
   (
     class: "performance",
-    icon: "fa-rabbit-fast",
+    icon: "fa-clock",
     color: $green,
-    background: darken($green,5)
-  ),
-  (
-    class: "actions",
-    icon: "fa-bolt",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "jobs",
-    icon: "fa-bolt",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "namespace-actions",
-    icon: "fa-bolt",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "general",
-    icon: "fa-cog",
-    color: $medium,
-    background: darken($medium,5)
-  ),
-  (
-    class: "events",
-    icon: "fa-turtle",
-    color: $green,
-    background: darken($green,5)
-  ),
-  (
-    class: "teams-members",
-    icon: "fa-user",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "integrations",
-    icon: "fa-link",
-    color: $medium,
-    background: darken($medium,5)
-  ),
-  (
-    class: "push-deploy",
-    icon: "fa-code",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "snapshot",
-    icon: "fa-camera",
-    color: $cyan,
-    background: darken($cyan,5)
-  ),
-  (
-    class: "app",
-    icon: "fa-cubes",
-    color: $blue,
-    background: darken($blue,5)
-  ),
-  (
-    class: "notifications",
-    icon: "fa-bell",
-    color: $blue,
-    background: darken($blue,5)
+    background: linear-gradient(125deg,$green,darken($green,10))
   ),
   (
     class: "alerting",
@@ -195,14 +93,63 @@ $navigation: (
     color: $blue
   ),
   (
-    class: "anomalies",
-    icon: "fa-traffic-light",
-    color: $blue
+    class: "actions",
+    icon: "fa-bolt",
+    color: $blue,
+    dark: darken($blue,5)
   ),
   (
-    class: "referrals",
-    icon: "fa-heart",
+    class: "events",
+    icon: "fa-tasks",
+    color: $green,
+    dark: darken($green,5)
+  ),
+  (
+    class: "host-usage",
+    icon: "fa-server",
+    color: $purple,
+    dark: darken($purple,5)
+  ),
+  (
+    class: "host-metrics",
+    icon: "fa-server",
+    color: $purple,
+    dark: darken($purple,5)
+  ),
+  (
+    class: "integrations",
+    icon: "fa-link",
+    color: $medium,
+    dark: darken($medium,5)
+  ),
+  (
+    class: "notifications",
+    icon: "fa-bell",
     color: $blue,
-    background: darken($blue,5)
-  )
+    dark: darken($blue,5)
+  ),
+  (
+    class: "general",
+    icon: "fa-cog",
+    color: $medium,
+    dark: darken($medium,5)
+  ),
+  (
+    class: "hosts",
+    icon: "fa-server",
+    color: $purple,
+    dark: darken($purple,5)
+  ),
+  (
+    class: "metrics",
+    icon: "fa-tachometer",
+    color: $red,
+    background: linear-gradient(125deg,$red,darken($red,10))
+  ),
+  (
+    class: "workflow",
+    icon: "fa-users",
+    color: $blue,
+    background: linear-gradient(125deg,$blue,darken($blue,10))
+  ),
 );
